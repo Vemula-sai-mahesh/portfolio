@@ -466,36 +466,35 @@ ul li a:hover{
 .back1{
     width: 40%;
     height: 50%;
-    clip-path: ellipse(49% 39% at 50% 50%);
-    background-color: #522625;
-    margin-left: 30%;
+    clip-path: ellipse(49% 50% at 50% 50%);
+    background-color:#8b6138;
+    margin-left: 50%;
     margin-top: 5%;
     transform: rotate(0deg);
 }
 .back2{
     width: 40%;
     height: 50%;
-    clip-path: ellipse(49% 39% at 50% 50%);
+    clip-path: ellipse(49% 50% at 50% 50%);
     background-color: #8b6138;
-    margin-left: 30%;
+    margin-left: 50%;
     margin-top: -37.5%;
-    transform: rotate(60deg);
+    transform: rotate(0deg);
 }
 .back3{
-    width: 40%;
-    height: 50%;
-    clip-path: ellipse(49% 39% at 50% 50%);
-    background-color: #522625;
-    margin-left: 30%;
-    margin-top: -37.5%;
-    transform: rotate(1200deg);
+    width: 30%;
+    height: 30%;
+    background-color:#8b6138;
+    margin-left: 52%;
+    margin-top: -26%;
+    transform: rotate(70deg);
 
 }
 .image{
     width: 30%;
     height: 40%;
-    margin-left: 35%;
-    margin-top: -35%;
+    margin-left: 55%;
+    margin-top: -30%;
     clip-path: circle(50% at 50% 50%);
    
 }
