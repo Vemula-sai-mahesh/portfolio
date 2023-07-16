@@ -467,7 +467,7 @@ ul li a:hover{
     width: 40%;
     height: 50%;
     clip-path: ellipse(49% 50% at 50% 50%);
-    background-color:#8b6138;
+    background-color:#522625 ;
     margin-left: 50%;
     margin-top: 5%;
     transform: rotate(0deg);
@@ -476,7 +476,7 @@ ul li a:hover{
     width: 40%;
     height: 50%;
     clip-path: ellipse(49% 50% at 50% 50%);
-    background-color: #8b6138;
+    background-color:#522625 ;
     margin-left: 50%;
     margin-top: -37.5%;
     transform: rotate(0deg);
@@ -484,7 +484,7 @@ ul li a:hover{
 .back3{
     width: 30%;
     height: 30%;
-    background-color:#8b6138;
+    background-color:#522625 ;
     margin-left: 52%;
     margin-top: -26%;
     transform: rotate(70deg);
