@@ -49,7 +49,7 @@ html,body{
     }
 }
 .logo h1{
-    color: #999;
+    color: #595353;
     animation: movedown 0.5s  linear 1 forwards;
 }
 .logo span{
@@ -59,7 +59,7 @@ html,body{
 .effects{
     width: 100%;
     height: 100vh;
-    background: #d57a77;
+    background: #e9dcc4;
     display:flex;
     flex-wrap:wrap;
     background-size: cover;
@@ -84,7 +84,7 @@ html,body{
     width: 40%;
     height: 50%;
     clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
-    background-color: #b65857;
+    background-color:  rgb(204, 122, 75);
     animation: moveright 0.4s linear 1;
     transition: 0.5s ease;
 }
@@ -93,7 +93,7 @@ html,body{
     width: 40%;
     height: 50%;
     clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
-    background-color:#522625;
+    background-color:rgb(204, 122, 75);
     animation: moveright1 0.4s linear 1;
     margin-left:20%;
     transition: 0.5s ease;
@@ -103,7 +103,7 @@ html,body{
     width: 40%;
     height: 50%;
     clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
-    background-color: #b65857;
+    background-color: rgb(204, 122, 75);
     animation: moveright 0.4s linear 1;
   
 }
@@ -111,7 +111,7 @@ html,body{
     width: 40%;
     height: 50%;
     clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
-    background-color: #522625;
+    background-color: rgb(204, 122, 75);
     animation:moveright1 0.4s linear 1;
     margin-left: 20%;
     
@@ -144,7 +144,7 @@ html,body{
     border-radius: 20px;
     animation: moveup 0.4s 1s linear 1 forwards;
     margin-top: 125px;
-    background-color:#522625 ;
+    background-color:#c7b594 ;
     border: #d57a77 2px solid;
     color: black;
     opacity: 0;  
@@ -169,7 +169,7 @@ html,body{
     }
     100%{
         transform:translateY(0px);        
-        color: black;
+        color:#522625;
         border-top: #d57a77 2px solid;
         border-bottom: #d57a77 2px solid;
         border-right: #d57a77 2px solid;
@@ -197,7 +197,7 @@ html,body{
     }
     100%{
         transform:translateY(0px);        
-        color: #999;
+        color: #595353;
         font-size: 20px; 
         opacity: 1;     
     }
@@ -249,7 +249,7 @@ html,body{
     }
     100%{
         transform: translateY(0px);  
-        background-color: #999;
+        background-color: #c7b594;
         border:solid 3px #b65857;
         opacity: 1;
     } 
@@ -406,18 +406,20 @@ ul{
 }
 ul li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 40px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .nav ul li a{
     text-decoration: none;
-    color: #b40c06;
-    font-family: cursive;
+    color: #522625;
+    font-family: 'Times New Roman', Times, serif;
     transition: 0.5s ease-in-out;
+    font-weight: bold;
+    border-bottom: 2px solid #522625;
 }
 ul li a:hover{
-    color: #999;
+    color: #b40c06;
 }
 /*-----profile------*/
 .my_profile{
@@ -491,7 +493,7 @@ ul li a:hover{
 .back3{
     width: 30%;
     height: 30%;
-    background-color:#522625 ;
+    background-color:#522625;
     margin-left: 52.5%;
     margin-top: -26.5%;
     transform: rotate(70deg);
@@ -576,7 +578,7 @@ label{
     width: fit-content;
     height: fit-content;
     font-size: 20px;
-    background-color: #939393;
+    background-color:#a26c29;
     float: left;
     padding: 10px;
     margin: 10px;
@@ -607,7 +609,7 @@ label{
 #edc h4{
     font-size: 25px;
     margin: 30px;
-    color: #cfcf74;
+    color: #875c28;
 }
 #edc h2{
     margin: 30px;
@@ -617,7 +619,7 @@ label{
 .overlay{
     width: 100%;
     height: 95%;
-    background:linear-gradient(#522625,rgb(128, 114, 114));
+    background:linear-gradient(#315c13,#8da080,rgb(128, 114, 114));
     position: absolute;
     opacity: 0;
     top: 0;
@@ -659,8 +661,9 @@ label{
     
 }
 .images pre{
- font-size: 17px;
- color: #cfcf74;
+ font-size: 20px;
+ font-weight: bold;
+ color: #48311a;
  font-family: 'Times New Roman';
  margin: 25px;
 }
@@ -688,8 +691,9 @@ label{
 }
 
 .bar h1{
-    font-size: 25px;
-    color: #cfcf74;
+    font-size: 28px;
+    color: #702221;
+    font-weight:bold;
 }
 #skill-h{
     color: white;
@@ -712,7 +716,7 @@ label{
     height: 50%;
     border-radius: 5px;
     animation:bar 4s ease ;
-    background: linear-gradient(to left,#f20804,#8b4f4e);
+    background: linear-gradient(to left,#a75227,#988b37,#315c13);
     z-index: 1;
 }
 @keyframes bar{
@@ -721,21 +725,21 @@ label{
     }
 }
 .bar:nth-child(1) span::before{
-    width: 60%;
+    width: 70%;
 }
 .bar:nth-child(2) span::before{
     animation-delay: 0.2s;
-    width: 50%;
+    width: 70%;
 }
 .bar:nth-child(3) span::before{
     animation-delay: 0.4s;
   
-    width: 40%;
+    width: 50%;
 }
 .bar:nth-child(4) span::before{
     animation-delay: 0.6s;
 
-    width: 50%;
+    width: 60%;
 }
 .bar:nth-child(5) span::before{
     animation-delay: 0.8s;
@@ -757,7 +761,7 @@ abbr{
     align-items: center;
     justify-content: center;
     font-size: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(233, 229, 229);
     top: 50px;
     position:absolute;
     margin-left: 70px;
@@ -770,19 +774,19 @@ abbr{
     }
 }
 .bar:nth-child(1) abbr{
-    left: 60%;
+    left: 70%;
 }
 .bar:nth-child(2) abbr{
     animation-delay: 0.2s;
-    left: 50%;
+    left: 70%;
 }
 .bar:nth-child(3) abbr{
     animation-delay: 0.4s;
-    left: 40%;
+    left: 50%;
 }
 .bar:nth-child(4) abbr{
     animation-delay: 0.6s;
-    left: 50%;
+    left: 60%;
 }
 .bar:nth-child(5) abbr{
     animation-delay: 0.8s;
@@ -791,6 +795,15 @@ abbr{
 .bar:nth-child(6) abbr{
     animation-delay: 1s;
     left: 60%;
+}
+#certificate{
+    color: #315c13;
+    text-decoration: none;
+}
+#webpage{
+    color:rgb(23, 67, 102);
+    text-decoration:line-through;
+    text-decoration: none;
 }
 #achieve{
     font-size: 17px;
@@ -811,6 +824,10 @@ abbr{
     margin-top: 30px;
 }
 #descp{
+    font-size: 15px;
+    margin-left: 280px;
+}
+#descp1{
     font-size: 15px;
     margin-left: 350px;
 }
