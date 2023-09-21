@@ -1062,9 +1062,12 @@ color: #e3dede;
         
     }
     #edc h4{
-        font-size: 21px;
+        font-size: 15px;
         margin: 30px;
         color: #875c28;
+    }
+    #edc h2{
+        font-size: 18px;
     }
     #edc h2{
         margin: 30px;
