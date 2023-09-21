@@ -966,8 +966,8 @@ color: #e3dede;
         height: 160px;
         background-color:#522625;
         margin-top: -150px;
-        transform: rotate(20deg);
-        margin-left: 55%;
+        transform: rotate(-10deg);
+        margin-left: 53.5%;
     }
     .image{
         width: 200px;
