@@ -907,6 +907,7 @@ color: #e3dede;
         max-width:700px;
         min-width: 350px;
         margin: 20px auto;
+        height: 630px
     
     }
     
@@ -917,7 +918,7 @@ color: #e3dede;
     .info{
         width: 95%;
         height: 580px;
-        padding-top: 120px;  
+        padding-top: 150px;  
             background-color: #c7b594;
             border:solid 3px #b65857;
     }
@@ -1253,7 +1254,7 @@ color: #e3dede;
         text-align: left;
     }
     #info_4 h1{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     #titlep{
         margin-left: 0px;
