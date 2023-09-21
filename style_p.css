@@ -83,6 +83,7 @@ html,body{
     border-bottom:2px solid #522625; 
     cursor: pointer; 
     display: flex;
+    margin-left: 10px;
 }
 @keyframes movedown{
     0%{
@@ -364,10 +365,10 @@ ul li a:hover{
     overflow-x: hidden;
     background-color: transparent;
     float: right; 
-    margin-top:70px;
+    margin-top:62px;
     scroll-behavior: smooth;
     top: 0;
-   
+    border:solid 5px #b65857;
 }
 
 .my_profile::-webkit-scrollbar{
@@ -381,8 +382,11 @@ ul li a:hover{
     margin-bottom: 5px;
     display:block;
     padding: 10px;  
-        background-color: #c7b594;
-        border:solid 3px #b65857;
+    background-color: #c7b594;
+    border:solid 2px #b65857;
+}
+#info_6{
+    margin-bottom: 0px;
 }
 #introducl{
     font-size: 15px;
@@ -920,7 +924,7 @@ color: #e3dede;
         height: 100%;
         padding-top: 150px;  
             background-color: #c7b594;
-            border:solid 3px #b65857;
+            border:solid 2px #b65857;
     }
     #introducl{
         font-size: 15px;
