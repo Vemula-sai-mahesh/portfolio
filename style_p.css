@@ -66,6 +66,7 @@ html,body{
     height: 100%;
     position: absolute;
     z-index: 2;
+    margin-bottom:20px ;
 }
 .top{
     width: 100%;
@@ -357,8 +358,8 @@ ul li a:hover{
 
 /*-----profile------*/
 .my_profile{
-    width: 794px;
-    height: 600px;
+    width: 754px;
+    height: 550px;
     margin:auto;
     border-radius: 13px;
     overflow-y:scroll;
@@ -369,6 +370,7 @@ ul li a:hover{
     scroll-behavior: smooth;
     top: 0;
     border:solid 5px #b65857;
+    margin-top: 80px;
 }
 
 .my_profile::-webkit-scrollbar{
